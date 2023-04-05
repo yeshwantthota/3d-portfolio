@@ -29,7 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import cryptobase from "./cryptobase.png";
+import dalle from "./dalle.png";
+import newsmonkey from "./newsmonkey.png";
 export {
   logo,
   backend,
@@ -59,4 +61,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  dalle,
+  cryptobase,
+  newsmonkey,
 };

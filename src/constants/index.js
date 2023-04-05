@@ -20,6 +20,9 @@ import {
   tesla,
   shopify,
   carrent,
+  dalle,
+  cryptobase,
+  newsmonkey,
   jobit,
   tripguide,
   threejs,
@@ -30,10 +33,10 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
-  {
-    id: "work",
-    title: "Work",
-  },
+  // {
+  //   id: "tech",
+  //   title: "Tech",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -42,11 +45,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "DevOps",
+    title: "React Native Developer",
     icon: mobile,
   },
   {
@@ -198,7 +201,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dall-E",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -215,11 +218,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: dalle,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "CryptoBase",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -236,11 +239,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: cryptobase,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "NewsMonkey",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -257,7 +260,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: newsmonkey,
     source_code_link: "https://github.com/",
   },
 ];
