@@ -33,10 +33,10 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
-  // {
-  //   id: "tech",
-  //   title: "Tech",
-  // },
+  {
+    id: "works",
+    title: "Works",
+  },
   {
     id: "contact",
     title: "Contact",
@@ -203,7 +203,7 @@ const projects = [
   {
     name: "Dall-E",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is an application that can generate the Ai images. This application is built using the MERN stack technologies and Open AI.It is a clone of a website called Midjourney.",
     tags: [
       {
         name: "react",
@@ -219,12 +219,12 @@ const projects = [
       },
     ],
     image: dalle,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/yeshwantthota/dall-e-clone",
   },
   {
     name: "CryptoBase",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "It is a web application for the crypto currency. we can see details of all the cryptos in this application.I have fetch all the details from the Crypto API, using Express JS",
     tags: [
       {
         name: "react",
@@ -240,12 +240,12 @@ const projects = [
       },
     ],
     image: cryptobase,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://cryptobase-24bf2.web.app/",
   },
   {
     name: "NewsMonkey",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a news app. It shows all real-time news along with the date and author details. I built this project using react-js, bootstrap and used news API to fetch the news.",
     tags: [
       {
         name: "nextjs",
@@ -261,7 +261,7 @@ const projects = [
       },
     ],
     image: newsmonkey,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/yeshwantthota/NewsMonkey",
   },
 ];
 
